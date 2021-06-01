@@ -1,0 +1,27 @@
+repos:
+  - repo: https://github.com/psf/black
+    rev: 19.10b0
+    hooks:
+      - id: black
+        # override until resolved: https://github.com/ambv/black/issues/402
+        files: \.pyi?$
+        types: []
+
+  - repo: https://github.com/asottile/seed-isort-config
+    rev: v1.9.3
+    hooks:
+      - id: seed-isort-config
+        args: [--application-directories=code]
+
+  - repo: https://github.com/pre-commit/mirrors-isort
+    rev: v4.3.21
+    hooks:
+      - id: isort
+        additional_dependencies: [toml]
+
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v2.4.0
+    hooks:
+      - id: trailing-whitespace
+      - id: end-of-file-fixer
+      - id: flake8
