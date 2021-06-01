@@ -14,9 +14,8 @@ More details can be found in the submission report [Designing an Iterative Netwo
 
 ## Usage
 
-The repository contains code to train the complete pipeline of our proposed
-reconstruction method (Operator -> UNet -> ItNet -> ItNet-post), as well as for
-two comparison networks (Tiramisu & Learned Primal Dual).
+The repository contains code to train the complete pipeline (Operator -> UNet -> ItNet -> ItNet-post) of our proposed
+reconstruction method, as well as for two comparison networks (Tiramisu & Learned Primal Dual).
 
 _The challenge data is not contained in this repository and needs to be obtained directly from the challenge website._
 
