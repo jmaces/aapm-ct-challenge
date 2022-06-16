@@ -9,7 +9,7 @@ Team: _robust-and-stable_
 
 This repository provides the implementation of our submission to the [AAPM DL-Sparse-View CT Challenge](https://www.aapm.org/GrandChallenge/DL-sparse-view-CT/).
 
-More details can be found in the submission report [Designing an Iterative Network for Fanbeam-CT with Unknown Geometry](http://arxiv.org/abs/2106.00280) by M. Genzel, J. Macdonald, and M. März (2021).
+More details can be found in our ICML2022 paper [Near-Exact Recovery for Tomographic Inverse Problems via Deep Learning](http://arxiv.org/abs/2206.07050) (by M. Genzel, I. Gühring, J. Macdonald, and M. März) and our short challenge submission report [Designing an Iterative Network for Fanbeam-CT with Unknown Geometry](http://arxiv.org/abs/2106.00280).
 
 
 ## Usage
